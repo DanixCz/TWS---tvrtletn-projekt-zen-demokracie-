@@ -18,18 +18,33 @@ header{
     margin-left: 35px;
     padding-bottom: 25px;
 }
-img{
-    height: 100px;
-}
 
-main{
-    height: 526px;
-}
 .navigace{
     display: flex;
     margin-top: 70px;
     margin-right: 50px;
     gap: 50px;
+}
+
+img{
+    height: 100px;
+}
+
+main{
+    height: 552px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Helldiver{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+h1{
+    font-size: 70px;
 }
 
 footer{
