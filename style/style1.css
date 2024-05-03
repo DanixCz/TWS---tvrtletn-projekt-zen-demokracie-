@@ -9,6 +9,10 @@ body{
     background-size: cover;
     color: white;
     font-family: "Chakra Petch", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 header{
@@ -16,6 +20,7 @@ header{
     background-color: black;
     justify-content: space-between;
 }
+
 .logo{
     margin-top: 25px;
     margin-left: 35px;
@@ -24,9 +29,10 @@ header{
 
 .navigace{
     display: flex;
-    margin-top: 70px;
-    margin-right: 50px;
+    align-items: center;
+    margin-right: 28px;
     gap: 50px;
+    font-size: 25px;
 }
 
 img{
@@ -44,6 +50,7 @@ main{
     display: flex;
     justify-content: center;
     padding-top: 100px;
+    transition: ease 0.5s;
 }
 
 h1{
@@ -51,6 +58,7 @@ h1{
     font-weight: 700;
     font-style: normal;
     text-shadow: 0px 1px 4px black;
+    transition: ease 0.5s;
 }
 
 footer{
@@ -96,6 +104,7 @@ a{
 
 a:hover{
     color: rgb(255, 233, 0);
+    transition: 0.1s;
 }
 
 path{
@@ -114,4 +123,23 @@ h3{
     margin: 0;
     padding: 0;
     margin-left: 15px;
+}
+
+@media only screen and (max-width: 1030px) {
+   h1{
+    font-size: 50px;
+   }
+   
+}
+
+@media only screen and (max-width: 470px) {
+   h1{
+    font-size: 33px;
+   }
+   .navigace{
+    font-size: 18px;
+   }
+   .Helldiver{
+    padding-top: 0px;
+   }
 }
