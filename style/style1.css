@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    
     color: white;
     font-family: "Chakra Petch", sans-serif;
     display: flex;
@@ -19,6 +20,8 @@ header{
     display: flex;
     background-color: black;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -40,7 +43,7 @@ img{
 }
 
 main{
-    height: 544px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,7 +52,7 @@ main{
 .Helldiver{
     display: flex;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 371px;
     transition: ease 0.5s;
 }
 
@@ -57,7 +60,7 @@ h1{
     font-size: 110px;
     font-weight: 700;
     font-style: normal;
-    text-shadow: 0px 1px 4px black;
+    text-shadow: 0px 1px 14px black;
     transition: ease 0.5s;
 }
 
@@ -119,6 +122,9 @@ path:hover{
    h1{
     font-size: 50px;
    }
+   .Helldiver{
+    padding-top: 150px;
+   }
    
 }
 
@@ -130,6 +136,6 @@ path:hover{
     font-size: 18px;
    }
    .Helldiver{
-    padding-top: 0px;
+    padding-top: 150px;
    }
 }
